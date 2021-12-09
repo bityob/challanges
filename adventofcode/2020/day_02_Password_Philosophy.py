@@ -3,10 +3,10 @@
 from pathlib import Path
 import re
 
-day_1_input = "day_02_input.txt"
-day_1_input_path = Path(__file__).parent / day_1_input
+day_input = "day_02_input.txt"
+day_input_path = Path(__file__).parent / day_input
 
-data = day_1_input_path.read_text().splitlines()
+data = day_input_path.read_text().splitlines()
 
 
 def parse_row(row):
